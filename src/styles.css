@@ -1,0 +1,60 @@
+input{
+    padding-left: 20px;
+    border: 0;
+    height: 40px;
+width: 250px;
+box-shadow: 0px 3px 3px 0px #888888;
+margin-right: 20px;
+border-radius: 25px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px 3px 3px 0px #888888;
+    border: none;
+    border-radius: 25px;
+}
+body{
+ background-color: #F0F8FF;    
+ /* font-family: 'Monoton', cursive; */
+font-family: 'Raleway', sans-serif;
+}
+img{
+    width: 350px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center
+   
+}
+.photo-card{
+    width: 400px;
+    padding: 20px 25px;
+   background-color:white; 
+   box-shadow: 10px 10px 8px 5px #888888;
+   border-radius: 10px;
+  
+}
+.search-form{
+    height: 100px;
+    justify-content: center;
+display: flex;
+align-items: center;
+}
+.info{
+    display: flex;
+}
+.load-more{
+    margin: 50px auto;
+}
+.header{
+     font-family: 'Monoton', cursive;
+     letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    color: #4776D1;
+    text-shadow: 0px 3px 3px 0px #bbbbbb;
+
+}
