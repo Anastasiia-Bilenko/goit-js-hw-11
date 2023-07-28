@@ -1,11 +1,11 @@
 import { fetchImages } from './img';
 import Notiflix from 'notiflix';
 //selecters 
-formEl = document.querySelector(".search-form")
-inputEl = document.querySelector('input[name="searchQuery"]');
-buttonEl = document.querySelector('button[type="submit"]');
-divGalleryEl = document.querySelector(".gallery");
-loadMoreButt = document.querySelector(".load-more")
+const formEl = document.querySelector(".search-form")
+const inputEl = document.querySelector('input[name="searchQuery"]');
+const buttonEl = document.querySelector('button[type="submit"]');
+const divGalleryEl = document.querySelector(".gallery");
+const loadMoreButt = document.querySelector(".load-more")
 
 console.log(divGalleryEl)
 
